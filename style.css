@@ -1,0 +1,57 @@
+* {
+    color: white;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+body {
+    background: #000;
+}
+
+.mainHeader {
+    text-align: center;
+}
+
+.addingTask {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+.inputField {
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid coral;
+    background: black;
+    outline: none;
+}
+
+.addToListButton {
+    background: none;
+    border: 1px solid coral;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    outline: none;
+}
+
+.taskList {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.liItem {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid coral;
+    font-size: 1.7rem;
+}
+
+.inputField {
+    align-self: end;
+}
+
+.addToListButton {
+    font-size: 20px;
+}
